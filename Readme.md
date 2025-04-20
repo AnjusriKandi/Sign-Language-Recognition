@@ -1,7 +1,7 @@
 
 #  Sign Language Recognition using CNN
 
-This project is a basic implementation of a **Sign Language Recognition System** using a **Convolutional Neural Network (CNN)**. The goal is to recognize hand gestures representing alphabet signs (A–Z) in **American Sign Language**, helping bridge communication gaps between the hearing and speech-impaired communities and others.
+<p align="justify">This project is a basic implementation of a **Sign Language Recognition System** using a **Convolutional Neural Network (CNN)**. The goal is to recognize hand gestures representing alphabet signs (A–Z) in **American Sign Language**, helping bridge communication gaps between the hearing and speech-impaired communities and others.</p>
 
 
 ## 📌 Features
