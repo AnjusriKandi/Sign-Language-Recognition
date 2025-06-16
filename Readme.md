@@ -63,7 +63,7 @@ model = tf.keras.models.Sequential([
 ```
 
 ## 📊 Results
-- Achieved 87% accuracy on the validation set (fill in your result).
+- Achieved 87% accuracy on the validation set.
 - Confusion matrix and accuracy/loss plots included for performance analysis.
 
 ## 📌 Future Improvements
