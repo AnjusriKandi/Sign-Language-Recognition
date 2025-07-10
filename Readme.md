@@ -8,9 +8,9 @@
 
 - 🧠 Built with a **Convolutional Neural Network** for image classification
 - 📷 Takes **static hand gesture images** as input
-- 🎯 Predicts and classifies gestures representing **English alphabets (A–Z)** except J and Z which require hand movement
-- 📊 Trained and tested on a dataset of labeled hand sign images
-- 🔍 Simple preprocessing pipeline with image resizing, grayscale conversion, and normalization
+- 🎯 Predicts and classifies gestures representing **English alphabets (A–Z)** except J and Z which require hand movement.
+- 📊 Trained and tested on a dataset of labeled hand sign images.
+- 🔍 Simple preprocessing pipeline with image resizing, one-hot encoding and normalization, also augmented the data dynamically using ImageDataGenerator.
 
 
 ## 🛠️ Tech Stack
@@ -25,8 +25,8 @@
 
 The project uses a publicly available dataset of sign language images [dataset](https://www.kaggle.com/datasets/datamunge/sign-language-mnist).
 
-- The dataset contains images for each letter A–Z except J and Z as they require hand movement
-- Preprocessed for uniform size and grayscale format
+- The dataset contains images for each letter A–Z except J and Z as they require hand movement.
+- Preprocessed for uniform size and grayscale format.
 
 
 ## 🚀 How It Works
@@ -63,14 +63,13 @@ model = tf.keras.models.Sequential([
 ```
 
 ## 📊 Results
-- Achieved 87% accuracy on the validation set.
+- Achieved 98% accuracy on the validation set.
 - Confusion matrix and accuracy/loss plots included for performance analysis.
 
 ## 📌 Future Improvements
-- Add real-time gesture recognition using webcam
-- Extend support for dynamic gestures and words
-- Incorporate Indian Sign Language grammar structure
-- Optimize model using transfer learning
+- Add real-time gesture recognition using webcam.
+- Extend support for dynamic gestures and words.
+- Incorporate Indian Sign Language grammar structure.
 
 ## 🤝 Contributing
 Feel free to fork this repo, raise issues, or open pull requests to contribute!
